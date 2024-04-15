@@ -1,0 +1,55 @@
+body {
+    background-image: url(veiws.jpg);
+    background-size: cover;
+    background-position: center;
+};
+nav {
+    position: fixed;
+    top: 0px;
+    width: auto;
+    padding: 20px;
+};
+nav :hover{
+    background-color: #00c;
+    cursor: pointer;
+    color: aliceblue;
+};
+ header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-style: italics;
+};
+ h1 { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: left;
+    text-decoration: underline;
+};
+ footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: medium;
+    font-style: normal;
+};
+ nav ul li {
+    list-style-type: armenian;
+    list-style: disc;
+    display: inline;
+    margin-left: 20px;
+};
+ .sra {
+    display: block;
+    margin: 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: auto;
+};
+.clone {
+    background-color: blue ;
+};
+.anything {
+    display: flex;
+    flex-wrap: wrap;
+}
